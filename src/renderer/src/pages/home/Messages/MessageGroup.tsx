@@ -358,7 +358,7 @@ const MessageWrapper = styled.div<MessageWrapperProps>`
     cursor: default;
     .message-content-container {
       padding-left: 0;
-      pointer-events: all;
+      pointer-events: auto;
     }
     .MessageFooter {
       margin-left: 0;
